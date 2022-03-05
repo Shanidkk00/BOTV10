@@ -20,7 +20,7 @@ class Config(object):
 
     
      
-    TUTORIAL = "https://youtu.be/5hnYOKBzyi8"
+    
     
 
     # Database URL from https://cloud.mongodb.com/
@@ -30,6 +30,8 @@ class Config(object):
     # Your database name from mongoDB
 
     DATABASE_NAME = str(os.environ.get("DATABASE_NAME", "Cluster0"))
+
+    TUTORIAL = "https://youtu.be/5hnYOKBzyi8"
 
     # ID of users that can use the bot commands
 
