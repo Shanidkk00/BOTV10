@@ -19,7 +19,8 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "")
 
     
-
+     
+    TUTORIAL = "https://youtu.be/5hnYOKBzyi8"
     
 
     # Database URL from https://cloud.mongodb.com/
